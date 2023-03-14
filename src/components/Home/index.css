@@ -1,0 +1,69 @@
+.home-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #e8e8e8;
+}
+
+.home-container {
+  width: 80%;
+  height: 80vh;
+}
+
+.home-heading {
+  color: #1e293b;
+  font-size: 40px;
+  font-weight: 800;
+  font-family: 'Roboto';
+}
+
+.courses-list-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.pending-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.failure-img {
+  width: 500px;
+  height: 400px;
+}
+
+.failure-heading {
+  color: #475569;
+  font-size: 38px;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+
+.failure-description {
+  color: #64748b;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+.retry-btn {
+  background-color: #4656a1;
+  width: 100px;
+  height: 40px;
+  border: none;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  border-radius: 5px;
+  padding: 10px;
+}

@@ -1,0 +1,55 @@
+.course-details-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #e8e8e8;
+}
+
+.course-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 90%;
+}
+
+.course-detail-card-container {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  box-sizing: 10px;
+  height: 100%;
+}
+
+.course-details-img {
+  width: 40%;
+  height: 80%;
+}
+
+.card-info-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  width: 60%;
+  height: 80%;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-heading {
+  color: #1e293b;
+  font-size: 35px;
+  font-weight: 800;
+  font-family: 'Roboto';
+}
+
+.card-description {
+  color: #475569;
+  font-size: 20px;
+  font-weight: 800;
+  font-family: 'Roboto';
+}
